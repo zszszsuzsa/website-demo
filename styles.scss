@@ -1,0 +1,128 @@
+body {
+  margin: 0px;
+  position: relative;
+  padding-top: 30px;
+  font-family: "Montserrat", sans-serif !important;
+
+  h2 {
+    padding-bottom: 40px;
+  }
+  section.header {
+    .navbar-default {
+      background-color: #3d969e;
+      .container-fluid {
+        .navbar-header {
+          button.navbar-toggle {
+            background: none;
+            span {
+              background-color: white;
+            }
+          }
+          a {
+            color: white;
+          }
+        }
+        .navbar-collapse {
+          .navbar-nav {
+            .active a {
+              color: #555;
+            }
+            li {
+              a {
+                color: white;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  h1 {
+    width: 435px;
+    top: 80px;
+    color: #555;
+  }
+
+  section.about {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    background-image: url("images/pixels.JPG");
+    background-attachment: fixed;
+    background-size: 50%;
+
+    .box {
+      display: block;
+      background-color: white;
+      border-radius: 25px;
+      border: 2px solid #3d969e;
+      img {
+        display: block;
+        margin: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        height: 220px;
+        border-radius: 50%;
+      }
+      p {
+        padding: 10px;
+      }
+    }
+  }
+
+  section.skills {
+    margin: 0px;
+    display: block;
+    outline: none;
+    padding-bottom: 40px;
+    background-color: #e7e7e7;
+    .row > div {
+      margin-bottom: 8px;
+    }
+    img {
+      height: 128px;
+    }
+  }
+
+  section.portfolio {
+    outline: none;
+    display: block;
+    padding-bottom: 40px;
+    background-color: #e7e7e7;
+    margin: 0px;
+    p {
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+    a {
+      img {
+        width: auto;
+        margin-bottom: 30px;
+        border-radius: 25px;
+      }
+    }
+    .video{
+      width:100%;
+      height:auto;
+      border-radius: 25px;
+    }
+  }
+  section.contact{
+    padding-bottom: 40px;
+    background-color: #3d969e;
+    color:white;
+.box{
+  width:60%;
+    .contact-icon{
+      height:50px;
+      margin:20px;
+    }
+    img{
+      display:inline;
+    }
+  }
+  form{
+    background-color:#3d969e;
+    border:none;
+  }
+}
+}

@@ -1,0 +1,84 @@
+body {
+  margin: 0px;
+  position: relative;
+  padding-top: 30px;
+  font-family: "Montserrat", sans-serif !important; }
+  body h2 {
+    padding-bottom: 40px; }
+  body section.header .navbar-default {
+    background-color: #3d969e; }
+    body section.header .navbar-default .container-fluid .navbar-header button.navbar-toggle {
+      background: none; }
+      body section.header .navbar-default .container-fluid .navbar-header button.navbar-toggle span {
+        background-color: white; }
+    body section.header .navbar-default .container-fluid .navbar-header a {
+      color: white; }
+    body section.header .navbar-default .container-fluid .navbar-collapse .navbar-nav .active a {
+      color: #555; }
+    body section.header .navbar-default .container-fluid .navbar-collapse .navbar-nav li a {
+      color: white; }
+  body h1 {
+    width: 435px;
+    top: 80px;
+    color: #555; }
+  body section.about {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    background-image: url("images/pixels.JPG");
+    background-attachment: fixed;
+    background-size: 50%; }
+    body section.about .box {
+      display: block;
+      background-color: white;
+      border-radius: 25px;
+      border: 2px solid #3d969e; }
+      body section.about .box img {
+        display: block;
+        margin: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        height: 220px;
+        border-radius: 50%; }
+      body section.about .box p {
+        padding: 10px; }
+  body section.skills {
+    margin: 0px;
+    display: block;
+    outline: none;
+    padding-bottom: 40px;
+    background-color: #e7e7e7; }
+    body section.skills .row > div {
+      margin-bottom: 8px; }
+    body section.skills img {
+      height: 128px; }
+  body section.portfolio {
+    outline: none;
+    display: block;
+    padding-bottom: 40px;
+    background-color: #e7e7e7;
+    margin: 0px; }
+    body section.portfolio p {
+      margin-bottom: 10px;
+      font-weight: bold; }
+    body section.portfolio a img {
+      width: auto;
+      margin-bottom: 30px;
+      border-radius: 25px; }
+    body section.portfolio .video {
+      width: 100%;
+      height: auto;
+      border-radius: 25px; }
+  body section.contact {
+    padding-bottom: 40px;
+    background-color: #3d969e;
+    color: white; }
+    body section.contact .box {
+      width: 60%; }
+      body section.contact .box .contact-icon {
+        height: 50px;
+        margin: 20px; }
+      body section.contact .box img {
+        display: inline; }
+    body section.contact form {
+      background-color: #3d969e;
+      border: none; }
